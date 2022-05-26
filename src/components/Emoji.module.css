@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+
+
+.input{
+	width: 300px;
+	height: 40px;
+	margin: 30px 0px 30px 0px;
+	border: 3px dotted rgb(248,200,44);
+	border-radius: 10px;
+	outline: none;
+	font-size: 20px;
+	font-family: 'Indie Flower';
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.input:focus, .input:hover{
+	cursor: pointer;
+	border: 5px dotted rgb(209, 162, 9);
+}
+
+.item{
+	margin: 8px;
+	font-size: 20px;
+	font-family: 'Indie Flower';
+	font-weight: bold;
+}
+
+.item:hover{
+	font-size: 30px;
+	background-color: rgb(253, 252, 161);
+	transition: background-color 0.15s ease-in-out, font-size 0.15s ease-in-out;
+}
